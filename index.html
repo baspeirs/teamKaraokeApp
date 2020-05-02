@@ -7,44 +7,47 @@
   <title>Project example</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://www.jsdelivr.com/package/npm/bulma">
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
 
 </head>
 
-<body>
-  <div class="jumbotron" style="background-color: darkmagenta" ;>
+<body style= "background-color: darkslategray;">
+  <div class="jumbotron" style="background-color: black" ;>
     <div class="container">
-      <h1 class="h1" style="text-align: center; background-color: darkmagenta; color: white;"> QUICKEOKE</h1>
+      <h1 class="h1" style="text-align: center; background-color: black ; color: gold; font-family: 'Monoton', cursive; font-size: 100px;"> QUICKEOKE</h1>
     </div>
   </div>
   <div id="container">
     <div id="search-div" class="input-group col-md-4">
       <input type="text" id="userSearch" placeholder="ARTIST" class="form-control" />
-      <span class="input-group-btn">
-        <button class="btn btn-primary city-btn search" input type="submit" value="Search" id="searchBtn"
-          style="background-color: darkorchid;">Search</button>
-
-    </div>
-    <br>
-    <br>
-    <div id="search-div2" class="input-group col-md-4">
+      
       <input type="text" id="userSearch2" placeholder="SONG" class="form-control" />
       <span class="input-group-btn">
-        <button class="btn btn-primary city-btn search" input type="submit" value="Search" id="searchBtn2"
-          style="background-color: darkorchid;">Search</button>
+        <button class="btn btn-primary city-btn search" input type="submit" value="Search" id="searchBtn"
+          style="background-color: darkslategray;">Search</button>
 
     </div>
-  </div>
-  <br>
-  <br>
-  <div id="lyrics">
+    
+    <br>
+    <br>
+    <!-- <div id="search-div2" class="input-group col-md-4">
+      <input type="text" id="userSearch2" placeholder="SONG" class="form-control" />
+      
+      <span class="input-group-btn">
+        <button class="btn btn-primary city-btn search" input type="submit" value="Search" id="searchBtn2"
+          style="background-color: darkslategray;">Search</button>
 
-  </div>
-  <!-- trying bulma -->
-  <div id="artistInfo">
-    <div class="card">
+    </div> -->
+    <br>
+    <br>
+    
+     <!-- trying bulma -->
+  <div class="row">
+  <div class= "col-md-4" id="artistInfo">
+    <div class="card" style= "background-color: darkslategray;">
       <div class="card-image col-md-8">
         <figure class="image is-4by3" id="artistimg">
-          <img src="https://via.placeholder.com/400" alt="Placeholder image">
+          <img src="https://via.placeholder.com/200" alt="Placeholder image">
         </figure>
       </div>
       <div class="artist info">
@@ -52,10 +55,22 @@
         Phasellus nec iaculis mauris. <a>@bulmaio</a>.
         <a href="#">#css</a> <a href="#">#responsive</a>
         <br>
-
+      
       </div>
     </div>
+    
   </div>
+  <div class= "col-md-8" id="lyrics" >
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi cupiditate
+       earum fugiat mollitia pariatur sequi in ut. Facilis quis perspiciatis ratione
+        laborum quisquam harum, ut quas sunt repellat? Ex, fugiat!</p>
+    </div>
+  </div>
+  <br>
+  <br>
+ </div> 
+  
+ 
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 

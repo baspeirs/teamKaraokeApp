@@ -9,8 +9,11 @@ var bandInfoBaseURL = "https://www.theaudiodb.com/api/v1/json/1/search.php?s=";
 //system of a down/chop%20suey"
 
 $("#searchBtn").on("click", function(){
+    // clear out the contents of the current container
+    $("#artistimg").empty();
+    //more divs to come
     // grab the values of the text boxes and apply them to variables
-    var artistSearch = $("#userSearch").val();
+    var artistSearch = $("#userSearch").val().trim();
     
     var fullBandURL = bandInfoBaseURL + artistSearch;
 

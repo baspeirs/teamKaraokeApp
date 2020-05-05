@@ -1,0 +1,34 @@
+body {
+     background-color: darkslategray;
+}
+header {
+    text-align: center;
+    color: gold;
+    font-family: 'Monoton', cursive; 
+    font-size: 70px;
+    
+}
+.jumbotron {
+    background: url(https://media.gettyimages.com/videos/rain-drops-on-a-black-background-the-background-can-be-remove-using-a-video-id1132361528?s=640x640);
+    background-size: cover;
+}
+    
+button {
+    background-color: darkslategray;
+}
+.container {
+    margin: 20px;
+}
+#artistInfo {
+    background-color: darkslategray;
+    image-orientation: from-image;
+    border: gold;
+    size: 50px;
+}
+#lyrics {
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: large;
+
+}

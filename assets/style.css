@@ -35,3 +35,9 @@ button {
 .artisImg {
     padding: 20px;
 }
+.info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}

@@ -34,7 +34,7 @@ $("#searchBtn").on("click", function(){
         // directions to genre/style
         let genrePTag = $("<p>");
         genrePTag.text(response.artists[0].strStyle)
-        $("#addInfo").append(genrePTag)
+        $("#link").append(genrePTag)
 
         // directions to facebook link
         // auto skips if band does not have facebook, so no conditional needed 
@@ -43,7 +43,7 @@ $("#searchBtn").on("click", function(){
         FBLinkTextTag.text(response.artists[0].strFacebook)
         FBLinkTag.append(FBLinkTextTag);
         FBLinkTag.attr("href", FBLinkTextTag);
-        $("#addInfo").append(FBLinkTag)
+        $("#link").append(FBLinkTag)
 
         // directions to artist banner
         let artistThumbTag = $("<img>");

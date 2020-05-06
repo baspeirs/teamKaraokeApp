@@ -1,5 +1,8 @@
 body {
-    background-color: darkslategray;
+    background-image: url(https://get.pxhere.com/photo/rock-music-light-crowd-concert-singer-band-audience-live-show-metal-darkness-musician-spotlight-celebrate-lights-stage-tour-performance-party-artists-fans-performing-arts-metal-band-rock-and-roll-live-concert-rock-concert-atmosphere-of-earth-computer-wallpaper-411392.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 header {
    text-align: center;
@@ -20,15 +23,15 @@ button {
    margin: 20px;
 }
 #artistInfo {
-   background-color: darkslategray;
+   background-color: black;
    image-orientation: from-image;
    border: gold;
-   size: 50px;
+   size: 10px;
 }
 #lyrics {
    font-style: normal;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   color: white;
+   font-family: 'Zilla Slab Highlight', cursive;
+   color: gold;
    font-size: large;
 
 }
@@ -40,4 +43,15 @@ button {
   margin-left: auto;
   margin-right: auto;
   width: 5%;
+}
+
+.row1 {
+    padding-top: 70px;
+}
+
+.row {
+    padding-top: 50px;
+}
+.col-md-6 {
+    background-color: black;
 }

@@ -8,47 +8,54 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://www.jsdelivr.com/package/npm/bulma">
   <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <header class="jumbotron"> QUICKEOKE </header>
+
 <body>
-  
-  </div>
+
   <div id="container">
     <div id="search-div" class="input-group col-md-4">
       <input type="text" id="userSearch" placeholder="ARTIST" class="form-control" />
-      
+
       <input type="text" id="userSearch2" placeholder="SONG" class="form-control" />
       <span class="input-group-btn">
-        <button class="btn btn-primary city-btn search" input type="submit" value="Search" id="searchBtn">Search</button>
+
+        <button class="btn btn-primary city-btn search" input type="submit" value="Search"
+          id="searchBtn">Search</button>
 
     </div>
-    
-    
-     <!-- trying bulma -->
-  <div class="row">
-  <div class= "col-md-4" id="artistInfo">
-    <div class="card">
-      <div class="card-image col-md-8">
-        <figure class="image is-4by3" id="artistimg">
-      </figure>
+
+    <div class="row" id="row1">
+      <div class="col-md-4" id="artistInfo">
+
+        <figure class="artistImg" id="artistimg">
+        </figure>
+
+
       </div>
-      
-    </div>
-    
-  </div>
-  <div class= "col-md-8" id="lyrics" data-spy="scroll" data-target="#navbar-example3" data-offset="0">
-     <p></p>
-  </div>
-  <br>
-  <br>
- </div> 
-  
-    
- <div class="info" id="addInfo">
 
- </div>
-      
+      <div class="col-md-7">
+        <div class="card-content">
+          <p class="lyrics" id="lyrics">
+
+          </p>
+          <div class="row" id="bottomRow">
+            <div class="col-md-4" id="link"></div>
+            <div class="col-md-4" id="artistThumb"></div>
+            <div class="col-md-4" id="genre"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <h4>Credits: Sibel Cidem, Robert Torres, Demi Oladipo, Bryce Speirs</h4>
+  </footer>
+
+
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="assets/script.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>

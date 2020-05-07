@@ -23,7 +23,6 @@ button {
    margin: 20px;
 }
 #artistInfo {
-   background-color: black;
    image-orientation: from-image;
    border: gold;
    size: 10px;
@@ -32,7 +31,7 @@ button {
    font-style: normal;
    font-family: 'Zilla Slab Highlight', cursive;
    color: gold;
-   font-size: large;
+   font-size: xx-large;
 
 }
 .artisImg {
@@ -45,13 +44,14 @@ button {
   width: 5%;
 }
 
-.row1 {
+#row1 {
     padding-top: 70px;
+    text-align: center;
 }
 
 .row {
     padding-top: 50px;
 }
-.col-md-6 {
+.col-md-8 {
     background-color: black;
 }

@@ -8,7 +8,7 @@ header {
    text-align: center;
    color: gold;
    font-family: 'Monoton', cursive; 
-   font-size: 70px;
+   font-size: 7vw;
    
 }
 .jumbotron {
@@ -52,6 +52,28 @@ button {
 .row {
     padding-top: 50px;
 }
-.col-md-8 {
+.col-md-7 {
     background-color: black;
+}
+
+#linkBox, #genreButton {
+   text-align: center;
+   font-size: large;
+   background-color: gold;
+   border-radius: 10px;
+   border-style: outset;
+   height: 50px;
+}
+
+footer {
+   background-color: gold;
+   height: 60px;
+   position: fixed;
+   bottom: 0px;
+   width: 100%;
+   text-align: center;
+}
+
+#bottomRow {
+   margin-bottom: 65px;
 }

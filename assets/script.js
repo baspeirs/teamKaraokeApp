@@ -6,6 +6,7 @@ $("#searchBtn").on("click", function(){
     // clear out the contents of the current container
     $("#artistimg").empty();
     $("#addInfo").empty();
+    $('#link').empty();
     
     // grab the values of the text boxes and apply them to variables
     var artistSearch = $("#userSearch").val().trim();
@@ -34,7 +35,7 @@ $("#searchBtn").on("click", function(){
         // directions to genre/style
         let genrePTag = $("<p>");
         genrePTag.text(response.artists[0].strStyle)
-        $("#link").append(genrePTag)
+        $("#genre").append(genrePTag)
 
         // directions to facebook link
         // auto skips if band does not have facebook, so no conditional needed 
@@ -49,7 +50,7 @@ $("#searchBtn").on("click", function(){
         let artistThumbTag = $("<img>");
         artistThumbTag.attr("src", response.artists[0].strArtistThumb)
         artistThumbTag.attr("width", "200px")
-        $("#addInfo").append(artistThumbTag)
+        $("#artistThumb").append(artistThumbTag)
     })
 
     $.ajax({

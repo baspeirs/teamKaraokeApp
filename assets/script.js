@@ -29,21 +29,34 @@ $("#searchBtn").on("click", function(){
         // append image to the page
         $("#artistimg").append(logoTag)
 
+        // create a bulma card
+        let cardDiv = $("<div>");
+        let innerCardDiv = $("<div>");
+        let lowerCardDiv = $("<div>");
+        cardDiv.attr("class", "card");
+        innerCardDiv.attr("class", "card-content");
+        lowerCardDiv.attr("class", "card-footer");
+
         // directions to genre/style
-        let genrePTag = $("<p>");
-        genrePTag.text("Genre: " + response.artists[0].strStyle)
-        genrePTag.attr("id", "genreButton")
-        $("#genre").append(genrePTag)
+        let genrePTag = $("<p>");
+        genrePTag.text("Genre: " + response.artists[0].strStyle);
+        genrePTag.attr("class", "title");
+        genrePTag.attr("id", "genreButton");
+        innerCardDiv.append(genrePTag);
 
         // directions to facebook link
         // auto skips if band does not have facebook, so no conditional needed 
-        let FBLinkTag = $("<a>");
-        let FBLinkTextTag = $("<p>");
-        FBLinkTextTag.text(response.artists[0].strFacebook)
-        FBLinkTag.append(FBLinkTextTag);
-        FBLinkTag.attr("href", FBLinkTextTag);
-        FBLinkTextTag.attr("id", "linkBox");
-        $("#link").append(FBLinkTag)
+        console.log(response.artists[0].strFacebook);
+        let FBLinkTag = $("<a>");
+        let FBLinkTextTag = $("<p>");
+        FBLinkTextTag.text(response.artists[0].strFacebook)
+        FBLinkTextTag.attr("class", "subtitle")
+        FBLinkTag.append(FBLinkTextTag);
+        FBLinkTag.attr("href", "https://" + response.artists[0].strFacebook);
+        FBLinkTextTag.attr("id", "linkBox");
+        lowerCardDiv.append(FBLinkTag)
+        cardDiv.append(innerCardDiv).append(lowerCardDiv);
+        $("#genre").append(cardDiv);
 
         // directions to artist banner
         let artistThumbTag = $("<img>");

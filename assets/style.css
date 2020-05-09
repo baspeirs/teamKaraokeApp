@@ -1,79 +1,79 @@
 body {
-    background-image: url(https://get.pxhere.com/photo/rock-music-light-crowd-concert-singer-band-audience-live-show-metal-darkness-musician-spotlight-celebrate-lights-stage-tour-performance-party-artists-fans-performing-arts-metal-band-rock-and-roll-live-concert-rock-concert-atmosphere-of-earth-computer-wallpaper-411392.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+   background-image: url(https://get.pxhere.com/photo/rock-music-light-crowd-concert-singer-band-audience-live-show-metal-darkness-musician-spotlight-celebrate-lights-stage-tour-performance-party-artists-fans-performing-arts-metal-band-rock-and-roll-live-concert-rock-concert-atmosphere-of-earth-computer-wallpaper-411392.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
 }
 header {
-   text-align: center;
-   color: gold;
-   font-family: 'Monoton', cursive; 
-   font-size: 7vw;
-   
+  text-align: center;
+  color: gold;
+  font-family: 'Monoton', cursive; 
+  font-size: 7vw;
+  
 }
 .jumbotron {
-   background: url(https://media.gettyimages.com/videos/rain-drops-on-a-black-background-the-background-can-be-remove-using-a-video-id1132361528?s=640x640);
-   background-size: cover;
+  background: url(https://media.gettyimages.com/videos/rain-drops-on-a-black-background-the-background-can-be-remove-using-a-video-id1132361528?s=640x640);
+  background-size: cover;
 }
-   
+  
 button {
-   background-color: darkslategray;
+  background-color: darkslategray;
 }
 .container {
-   margin: 20px;
+  margin: 20px;
 }
 #artistInfo {
-   image-orientation: from-image;
-   border: gold;
-   size: 10px;
+  image-orientation: from-image;
+  border: gold;
+  size: 10px;
 }
 #lyrics {
-   font-style: normal;
-   font-family: 'Zilla Slab Highlight', cursive;
-   color: gold;
-   font-size: xx-large;
+  font-style: normal;
+  font-family: 'Zilla Slab Highlight', cursive;
+  color: gold;
+  font-size: xx-large;
 
 }
 .artisImg {
-    padding: 20px;
-}
-.info {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 5%;
+   padding: 20px;
 }
 
 #row1 {
-    padding-top: 70px;
-    text-align: center;
+   margin-right: 50px;
+   padding-top: 70px;
+   text-align: center;
 }
 
 .row {
-    padding-top: 50px;
+  
+   padding-top: 50px;
 }
 .col-md-7 {
-    background-color: black;
+   background-color: black;
 }
 
-#linkBox, #genreButton {
-   text-align: center;
-   font-size: large;
-   background-color: gold;
-   border-radius: 10px;
-   border-style: outset;
-   height: 50px;
+.card-content {
+  font-size: larger;
+  font-weight: bolder;
+  font-family: 'Zilla Slab', serif;
+}
+
+.card-footer {
+  font-family: 'Zilla Slab', serif;
 }
 
 footer {
-   background-color: gold;
-   height: 60px;
-   position: fixed;
-   bottom: 0px;
-   width: 100%;
-   text-align: center;
+  background-color: gold;
+  height: 60px;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  margin-top: 335px;
+  position: relative;
+
 }
 
 #bottomRow {
-   margin-bottom: 65px;
+  margin-bottom: 65px;
 }
+
